@@ -22,40 +22,77 @@ nav ul li a {
 }
 .backgroundImage{
     width: 100%;
+    transition-duration: 0.2s;
 }
 .frontimage{
   width: 300px;
   height: 300px;
   position: absolute;
-  left: 500px;
+  left: 550px;
   top: 200px;
   z-index: 1;
 }
 .buttoncinema{
   position: absolute;
-  left: 600px;
+  left: 550px;
   top: 500px;
   z-index: 1;
   border: 0;
+  background-color: transparent;
 }
-.billet{
-    width: 150px;
-    height: 20px;
-    border-radius: 7% 12% 9% 10% / 48% 39% 60% 52% ;
+.acinema{
+    color: white;
+    font-size: 25px;
+  }
+.buttonA{
     position: absolute;
-    left: 550px;
+    left: 480px;
     top: 550px;
     z-index: 1;
-    background-color: yellow;
+}
+.billet{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 166, 0, 0.658);
+    border-radius: 10% 10% 10% 10% / 47% 46% 53% 53%;
     border: 0;
   }
   .savoirplus{
-    width: 150px;
-    height: 20px;
-    border-radius: 7% 12% 9% 10% / 48% 39% 60% 52% ;
-    position: absolute;
-    left: 700px;
-    top: 550px;
-    z-index: 1;
-    border: 0.5;
+    margin-left: 2em;
+    width: 200px;
+    height: 50px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 10% 10% 10% 10% / 47% 46% 53% 53%;
+    color: red;
   }
+  .asavoir{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .abillet{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .menupicture{
+    display: flex;
+    position: absolute;
+    top: 660px;
+    justify-content: space-around;
+  }
+  .imgirl{
+    margin-left: 1em;
+    width: 90%;
+    transition-duration: 0.2s;
+  }
+  .backgroundImage:hover{
+    transform: scale(1.03);
+  }
+  .imgirl:hover{
+    transform: scale(1.03);
+  }
+ #Ancre{
+  
+ }
