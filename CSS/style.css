@@ -96,3 +96,19 @@ nav ul li a {
  #Ancre{
   
  }
+ .headerMenu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+ main{
+  padding-top: 80px;
+ }
+ .paralax{
+  background-image: url(/img/attraction.jpeg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
